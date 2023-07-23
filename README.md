@@ -2,6 +2,14 @@
 
 ExcelREI is a local host server application that allows users to select Excel files from their local system, process them, and create corresponding cards on Trello.
 
+
+
+
+https://github.com/beb050123/ExcelREI/assets/109166682/54fdedf9-9caf-4885-b647-74d805ed19d7
+
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
