@@ -59,7 +59,7 @@ def upload_file():
 <!doctype html>
 <html>
 <head>
-<title>Upload new File</title>
+<title>Upload new File (DO NOT REFRESH PAGE)</title>
 <style>
     /* ... existing styles ... */
     .spinner {
