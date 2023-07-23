@@ -1,6 +1,6 @@
-# Excel-to-Trello
+# ExcelREI
 
-Excel-to-Trello is a local host server application that allows users to select Excel files from their local system, process them, and create corresponding cards on Trello.
+ExcelREI is a local host server application that allows users to select Excel files from their local system, process them, and create corresponding cards on Trello.
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ Follow these steps to get the app running on your local system:
 2. **Change into the directory**
 
     ```bash
-    cd excel-to-trello
+    cd ExcelREI
     ```
 
 3. **Install the requirements**
