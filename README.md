@@ -52,8 +52,3 @@ python app.py
 ```
 This will start a local Flask server, which you can access via localhost:5000 on your web browser.
 
-
-Built With
-Flask - The web framework used
-pandas - Data processing and analysis library
-Trello API - For interaction with Trello boards
