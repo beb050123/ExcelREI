@@ -50,5 +50,5 @@ To run the application on your local machine, use the command:
 ```bash
 python app.py
 ```
-This will start a local Flask server, which you can access via localhost:5000 on your web browser.
+This will start a local Flask server, which you can access via localhost:3063 on your web browser.
 
