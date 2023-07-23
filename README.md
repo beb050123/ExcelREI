@@ -60,3 +60,5 @@ python app.py
 ```
 This will start a local Flask server, which you can access via localhost:3063 on your web browser.
 
+### DO NOT REFRESH PAGE WHILE FILES ARE UPLOADING!
+
