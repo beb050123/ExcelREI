@@ -12,7 +12,10 @@ load_dotenv()
 
 app = Flask(__name__)
 
-app.config['UPLOAD_FOLDER'] = 'uploads'  
+app.config['UPLOAD_FOLDER'] = 'uploads'
+
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    os.makedirs(app.config['UPLOAD_FOLDER'])
 
 
 # Setup logging
