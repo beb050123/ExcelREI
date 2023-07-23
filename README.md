@@ -1,49 +1,59 @@
-# Trello Bot for Creating Cards from Excel
+# Excel-to-Trello
 
-This Python application reads data from an Excel file, scrubs the data, and creates Trello cards with specific labels based on specific columns in the Excel sheet.
+Excel-to-Trello is a local host server application that allows users to select Excel files from their local system, process them, and create corresponding cards on Trello.
 
-## Prerequisites
+## Getting Started
 
-1. Python 3.x 
-2. pip (Python package manager)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Installation
+### Prerequisites
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Run the following command to install the necessary Python packages:
+Ensure you have the following installed on your local system:
 
+- Python 3.x
+- Flask
+- pandas
+- requests
+- openpyxl
+- python-dotenv
+
+### Installing
+
+Follow these steps to get the app running on your local system:
+
+1. **Clone the repository**
+
+    ```bash
+    git clone https://github.com/yourusername/excel-to-trello.git
     ```
+
+2. **Change into the directory**
+
+    ```bash
+    cd excel-to-trello
+    ```
+
+3. **Install the requirements**
+
+    ```bash
     pip install -r requirements.txt
     ```
 
-## Getting Trello API Key, Token, Board ID, and List ID
+4. **Set your environment variables in a `.env` file**
 
-1. **API Key & Token**: Visit the [Trello API Key page](https://trello.com/app-key). Here, you will find your API key. Generate your token by clicking on the `Token` link on the page.
+    Set your Trello API Key, Token, Username, Board Name, and List Name as environment variables in a `.env` file at the root of your project directory.
 
-2. **Board ID**: Visit your Trello board in your web browser. The URL will be something like `https://trello.com/b/BOARD_ID/BOARD_NAME`. The `BOARD_ID` is what you need.
+### Running the Application
 
-3. **List ID**: Use the [Trello API](https://developer.atlassian.com/cloud/trello/rest/api-group-boards/#api-boards-id-lists-get) to get the list ID. Replace `BOARD_ID` in the following URL with your actual board ID, then visit it in your browser: `https://api.trello.com/1/boards/BOARD_ID/lists?fields=name&key=YOUR_API_KEY&token=YOUR_TOKEN`.
+To run the application on your local machine, use the command:
 
-## Running the Script
+```bash
+python app.py
+```
+This will start a local Flask server, which you can access via localhost:5000 on your web browser.
 
-1. Store your API key and token in a `.env` file in the project directory as follows:
 
-    ```
-    TRELLO_API_KEY=your_api_key
-    TRELLO_TOKEN=your_token
-    ```
-
-    Replace `your_api_key` and `your_token` with your actual API key and token.
-
-2. Replace the placeholders in the `trello_bot.py` script with your actual board and list IDs.
-
-3. Run the Python script:
-
-    ```
-    python trello_bot.py
-    ```
-
-## Support
-
-For any questions or support, please contact me at [bbaker@aresinvestments.org](mailto:bbaker@aresinvestments.org).
+Built With
+Flask - The web framework used
+pandas - Data processing and analysis library
+Trello API - For interaction with Trello boards
