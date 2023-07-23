@@ -282,3 +282,26 @@ NameError: name 'progress_bar' is not defined
 2023-07-23 03:30:46,035 INFO:127.0.0.1 - - [23/Jul/2023 03:30:46] "GET / HTTP/1.1" 200 -
 2023-07-23 03:30:47,418 INFO:127.0.0.1 - - [23/Jul/2023 03:30:47] "GET / HTTP/1.1" 200 -
 2023-07-23 03:31:03,095 INFO:127.0.0.1 - - [23/Jul/2023 03:31:03] "POST / HTTP/1.1" 200 -
+2023-07-23 04:23:47,908 ERROR:Missing mandatory environment variable TRELLO_API_KEY
+2023-07-23 04:23:53,211 ERROR:Missing mandatory environment variable TRELLO_API_KEY
+2023-07-23 04:24:30,579 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 04:24:30,580 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 04:24:43,529 INFO:127.0.0.1 - - [23/Jul/2023 04:24:43] "GET / HTTP/1.1" 200 -
+2023-07-23 04:26:19,706 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 04:26:19,707 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 04:26:23,343 INFO:127.0.0.1 - - [23/Jul/2023 04:26:23] "GET / HTTP/1.1" 200 -
+2023-07-23 14:26:01,118 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 14:26:01,118 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 14:26:05,516 INFO:127.0.0.1 - - [23/Jul/2023 14:26:05] "GET / HTTP/1.1" 200 -
+2023-07-23 14:26:45,638 INFO:127.0.0.1 - - [23/Jul/2023 14:26:45] "POST / HTTP/1.1" 200 -
+2023-07-23 14:27:42,995 INFO:127.0.0.1 - - [23/Jul/2023 14:27:42] "GET / HTTP/1.1" 200 -
+2023-07-23 14:49:19,017 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 14:49:19,017 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 14:49:26,211 INFO:127.0.0.1 - - [23/Jul/2023 14:49:26] "GET / HTTP/1.1" 200 -
+2023-07-23 14:54:15,439 INFO:127.0.0.1 - - [23/Jul/2023 14:54:15] "POST / HTTP/1.1" 200 -
+2023-07-23 15:00:03,557 INFO:127.0.0.1 - - [23/Jul/2023 15:00:03] "GET / HTTP/1.1" 200 -
+2023-07-23 15:00:03,624 INFO:127.0.0.1 - - [23/Jul/2023 15:00:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
