@@ -32,7 +32,7 @@ Follow these steps to get the app running on your local system:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/excel-to-trello.git
+    git clone https://github.com/beb050123/ExcelREI
     ```
 
 2. **Change into the directory**
