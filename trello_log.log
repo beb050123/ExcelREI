@@ -1,0 +1,284 @@
+2023-07-23 02:46:42,490 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-07-23 02:46:42,490 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:47:10,376 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3050
+2023-07-23 02:47:10,376 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:47:15,517 INFO:127.0.0.1 - - [23/Jul/2023 02:47:15] "GET / HTTP/1.1" 200 -
+2023-07-23 02:47:15,607 INFO:127.0.0.1 - - [23/Jul/2023 02:47:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-23 02:47:36,065 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 47, in upload_file
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/upload/directory/Leads_07_18_2023_-_08_01_23___Senior_Failed_Listing_2_Properties_Vacant.xlsx'
+2023-07-23 02:47:36,077 INFO:127.0.0.1 - - [23/Jul/2023 02:47:36] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 02:50:13,570 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 02:50:13,570 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:50:27,041 INFO:127.0.0.1 - - [23/Jul/2023 02:50:27] "GET / HTTP/1.1" 200 -
+2023-07-23 02:50:27,171 INFO:127.0.0.1 - - [23/Jul/2023 02:50:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-23 02:52:09,623 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 47, in upload_file
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'upload/Screenshot_2023-07-23_at_12.44.09_AM.png'
+2023-07-23 02:52:09,628 INFO:127.0.0.1 - - [23/Jul/2023 02:52:09] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 02:52:21,688 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 47, in upload_file
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/werkzeug/datastructures/file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'upload/Leads_07_18_2023_-_08_01_23___Senior_Failed_Listing_2_Properties_Vacant.xlsx'
+2023-07-23 02:52:21,690 INFO:127.0.0.1 - - [23/Jul/2023 02:52:21] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 02:54:35,500 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 02:54:35,500 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:54:42,868 INFO:127.0.0.1 - - [23/Jul/2023 02:54:42] "GET / HTTP/1.1" 200 -
+2023-07-23 02:54:48,874 INFO:127.0.0.1 - - [23/Jul/2023 02:54:48] "POST / HTTP/1.1" 200 -
+2023-07-23 02:54:50,900 INFO:127.0.0.1 - - [23/Jul/2023 02:54:50] "GET / HTTP/1.1" 200 -
+2023-07-23 02:54:59,582 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 51, in upload_file
+    process_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), skiptraced)  # Call your Trello processing function
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 122, in process_file
+    if skiptraced.lower() == 'yes':
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-23 02:54:59,585 INFO:127.0.0.1 - - [23/Jul/2023 02:54:59] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 02:58:12,005 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 02:58:12,006 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:59:50,695 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 02:59:50,695 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 02:59:52,621 INFO:127.0.0.1 - - [23/Jul/2023 02:59:52] "GET / HTTP/1.1" 200 -
+2023-07-23 03:00:03,770 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 51, in upload_file
+    process_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), skiptraced)  # Call your Trello processing function
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 122, in process_file
+    if skiptraced.lower() == 'yes':
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-23 03:00:03,772 INFO:127.0.0.1 - - [23/Jul/2023 03:00:03] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 03:00:15,735 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 51, in upload_file
+    process_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), skiptraced)  # Call your Trello processing function
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 122, in process_file
+    if skiptraced.lower() == 'yes':
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-23 03:00:15,736 INFO:127.0.0.1 - - [23/Jul/2023 03:00:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 03:00:54,377 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 51, in upload_file
+    process_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), skiptraced)  # Call your Trello processing function
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 122, in process_file
+    if skiptraced.lower() == 'yes':
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+2023-07-23 03:00:54,379 INFO:127.0.0.1 - - [23/Jul/2023 03:00:54] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 03:02:54,211 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 03:02:54,211 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:02:58,730 INFO:127.0.0.1 - - [23/Jul/2023 03:02:58] "GET / HTTP/1.1" 200 -
+2023-07-23 03:03:02,522 ERROR:Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 51, in upload_file
+    process_file(os.path.join(app.config['UPLOAD_FOLDER'], filename), skiptraced)  # Call your Trello processing function
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/blakebaker/Coding/excel_to_trello/app.py", line 120, in process_file
+    progress_bar.update()
+    ^^^^^^^^^^^^
+NameError: name 'progress_bar' is not defined
+2023-07-23 03:03:02,524 INFO:127.0.0.1 - - [23/Jul/2023 03:03:02] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-07-23 03:04:08,911 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 03:04:08,912 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:04:11,930 INFO:127.0.0.1 - - [23/Jul/2023 03:04:11] "GET / HTTP/1.1" 200 -
+2023-07-23 03:04:16,225 INFO:127.0.0.1 - - [23/Jul/2023 03:04:16] "POST / HTTP/1.1" 200 -
+2023-07-23 03:07:31,479 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 03:07:31,480 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:07:38,684 INFO:127.0.0.1 - - [23/Jul/2023 03:07:38] "GET / HTTP/1.1" 200 -
+2023-07-23 03:07:39,340 INFO:127.0.0.1 - - [23/Jul/2023 03:07:39] "GET / HTTP/1.1" 200 -
+2023-07-23 03:09:25,816 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 03:09:25,817 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:09:38,343 INFO:127.0.0.1 - - [23/Jul/2023 03:09:38] "GET / HTTP/1.1" 200 -
+2023-07-23 03:12:00,150 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3060
+2023-07-23 03:12:00,151 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:12:16,865 INFO:127.0.0.1 - - [23/Jul/2023 03:12:16] "GET / HTTP/1.1" 200 -
+2023-07-23 03:12:27,945 INFO:127.0.0.1 - - [23/Jul/2023 03:12:27] "POST / HTTP/1.1" 200 -
+2023-07-23 03:14:17,619 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3061
+2023-07-23 03:14:17,619 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:14:19,701 INFO:127.0.0.1 - - [23/Jul/2023 03:14:19] "GET / HTTP/1.1" 200 -
+2023-07-23 03:14:19,804 INFO:127.0.0.1 - - [23/Jul/2023 03:14:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-23 03:14:33,440 INFO:127.0.0.1 - - [23/Jul/2023 03:14:33] "POST / HTTP/1.1" 200 -
+2023-07-23 03:15:12,758 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3062
+2023-07-23 03:15:12,758 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:15:19,149 INFO:127.0.0.1 - - [23/Jul/2023 03:15:19] "GET / HTTP/1.1" 200 -
+2023-07-23 03:15:19,199 INFO:127.0.0.1 - - [23/Jul/2023 03:15:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-23 03:15:43,257 INFO:127.0.0.1 - - [23/Jul/2023 03:15:43] "POST / HTTP/1.1" 200 -
+2023-07-23 03:15:56,981 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3062
+2023-07-23 03:15:56,982 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:15:58,857 INFO:127.0.0.1 - - [23/Jul/2023 03:15:58] "GET / HTTP/1.1" 200 -
+2023-07-23 03:17:14,729 INFO:127.0.0.1 - - [23/Jul/2023 03:17:14] "POST / HTTP/1.1" 200 -
+2023-07-23 03:17:33,056 INFO:127.0.0.1 - - [23/Jul/2023 03:17:33] "GET / HTTP/1.1" 200 -
+2023-07-23 03:17:53,475 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3062
+2023-07-23 03:17:53,475 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:17:55,635 INFO:127.0.0.1 - - [23/Jul/2023 03:17:55] "GET / HTTP/1.1" 200 -
+2023-07-23 03:20:00,679 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3062
+2023-07-23 03:20:00,679 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:20:08,828 INFO:127.0.0.1 - - [23/Jul/2023 03:20:08] "GET / HTTP/1.1" 200 -
+2023-07-23 03:20:17,691 INFO:127.0.0.1 - - [23/Jul/2023 03:20:17] "POST / HTTP/1.1" 200 -
+2023-07-23 03:23:47,133 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3062
+2023-07-23 03:23:47,133 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:23:50,102 INFO:127.0.0.1 - - [23/Jul/2023 03:23:50] "GET / HTTP/1.1" 200 -
+2023-07-23 03:23:54,973 INFO:127.0.0.1 - - [23/Jul/2023 03:23:54] "POST / HTTP/1.1" 200 -
+2023-07-23 03:25:58,969 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 03:25:58,969 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:26:05,716 INFO:127.0.0.1 - - [23/Jul/2023 03:26:05] "GET / HTTP/1.1" 200 -
+2023-07-23 03:26:05,823 INFO:127.0.0.1 - - [23/Jul/2023 03:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-07-23 03:26:11,285 INFO:127.0.0.1 - - [23/Jul/2023 03:26:11] "POST / HTTP/1.1" 200 -
+2023-07-23 03:26:13,439 INFO:127.0.0.1 - - [23/Jul/2023 03:26:13] "GET / HTTP/1.1" 200 -
+2023-07-23 03:28:29,079 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 03:28:29,079 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:28:31,129 INFO:127.0.0.1 - - [23/Jul/2023 03:28:31] "GET / HTTP/1.1" 200 -
+2023-07-23 03:28:35,552 INFO:127.0.0.1 - - [23/Jul/2023 03:28:35] "POST / HTTP/1.1" 200 -
+2023-07-23 03:29:02,407 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 03:29:02,407 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:29:09,143 INFO:127.0.0.1 - - [23/Jul/2023 03:29:09] "GET / HTTP/1.1" 200 -
+2023-07-23 03:29:10,566 INFO:127.0.0.1 - - [23/Jul/2023 03:29:10] "GET / HTTP/1.1" 200 -
+2023-07-23 03:29:15,670 INFO:127.0.0.1 - - [23/Jul/2023 03:29:15] "POST / HTTP/1.1" 200 -
+2023-07-23 03:29:54,840 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 03:29:54,840 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:29:57,606 INFO:127.0.0.1 - - [23/Jul/2023 03:29:57] "GET / HTTP/1.1" 200 -
+2023-07-23 03:29:58,619 INFO:127.0.0.1 - - [23/Jul/2023 03:29:58] "GET / HTTP/1.1" 200 -
+2023-07-23 03:30:02,764 INFO:127.0.0.1 - - [23/Jul/2023 03:30:02] "POST / HTTP/1.1" 200 -
+2023-07-23 03:30:42,902 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3063
+2023-07-23 03:30:42,902 INFO:[33mPress CTRL+C to quit[0m
+2023-07-23 03:30:46,035 INFO:127.0.0.1 - - [23/Jul/2023 03:30:46] "GET / HTTP/1.1" 200 -
+2023-07-23 03:30:47,418 INFO:127.0.0.1 - - [23/Jul/2023 03:30:47] "GET / HTTP/1.1" 200 -
+2023-07-23 03:31:03,095 INFO:127.0.0.1 - - [23/Jul/2023 03:31:03] "POST / HTTP/1.1" 200 -

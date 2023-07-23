@@ -1,0 +1,7 @@
+pandas
+requests
+openpyxl
+python-dotenv
+logging
+tqdm
+flask
